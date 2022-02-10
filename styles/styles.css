@@ -102,6 +102,7 @@ padding-left: 10px;
 .conclusion p {
     font-style: italic;
     text-shadow: 2px 2px 2px rgb(39, 41, 39);
+    text-align: center;
 }
 
 .heading p {
