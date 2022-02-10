@@ -3,6 +3,9 @@
     <head>
         <title>surveyform</title>
         <link rel="stylesheet" href="styles/styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700&family=Poppins:ital,wght@0,100;0,400;1,100&display=swap" rel="stylesheet">
     </head>
 
     <body>
@@ -91,14 +94,16 @@
                         <div><label for="cost"><input type="checkbox" id="cost" name="feature"> Cost.</label></div>
                         <div><label for="aesthetics"><input type="checkbox" id="aesthetics" name="feature">
                                 Aesthetics.</label></div>
-                    </div>
+                        </div>
+                        <div class="comments"><label for="comments">Any comments or suggestions?</label></div>
+                        <div><textarea id="comments" name="comments" rows="4" placeholder="Enter your comment here..."></textarea></div>
 
+                    <div class="conclusion"> 
+                        <button>Submit</button>
+                        <p>Thank you for participating in this survey, your precious time is highly appreciated.</p>
+                    </div>
                 </div>
             </form>
-            <div class="conclusion"> 
-                <p>Thank you for participating in this survey, your precious time is highly appreciated.</p>
-                <button>Submit</button>
-            </div>
             
         </div>
     </body>
