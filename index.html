@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>surveyform</title>
+        <link rel="stylesheet" href="styles/styles.css">
+    </head>
+
+    <body>
+        <div class="main">
+            <div class="heading">
+                <h1>Survey form on fast food joint preference in Nairobi</h1>
+                <p>(The information you provide in here will be held with utmost confidentiality and will not be shared or
+                    used
+                    for any illegal purposes)</p>
+            </div>
+
+            <form>
+                <div class="form">
+                    <div class="items">
+                        <div><label for="name">Name</label></div>
+                        <div class="text-box"><input id="name" type="text" name="name" placeholder="Enter your name"></div>
+                    </div>
+                    <div class="items">
+                        <div><label for="age">Age</label></div>
+                        <div class="text-box"><input type="text" id="age" name="age" placeholder="DD/MM/YYYY"></div>
+                    </div>
+                    <div class="items">
+                        <div><label for="contact">Mobile Number</label></div>
+                        <div class="text-box"><input type="text" id="contact" name="contact-info" placeholder="Enter your mobile number"></div>
+                    </div>
+                    <div class="items">
+                        <div><label for="occupation">Occupation</label></div>
+                        <div class="text-box"><input type="text" id="occupation" name="occupation" placeholder="Enter your occupation"></div>
+                    </div>
+                    <div>
+                        <div class="option"><label for="joint">Which is your preferred fast-food joint?</label></div>
+                        <select name="joint" id="joint" placeholder="select an option">
+                            <option disabled selected>select an option</option>
+                            <option value="kfc">KFC</option>
+                            <option value="burger-king">Burger King</option>
+                            <option value="chicken-inn">Chicken Inn</option>
+                            <option value="fish-and-chips">Fish and Chips Kiosks</option>
+                            <option value="korean-kitchen">Korean Kitchen</option>
+                            <option value="galitos">Galitos</option>
+
+                        </select>
+                    </div>
+                    <div class="items">
+                        <div><label for="reference">How did you find the above joint?</label></div>
+                        <div><label for="family-friends"><input type="radio" id="family-friends" name="reference">
+                                Family/friends.</label></div>
+                        <div><label for="online"><input type="radio" id="online" name="reference"> online.</label></div>
+                        <div><label for="accidental"><input type="radio" id="accidental" name="reference">
+                                Accidentally.</label></div>
+                        <div><label for="advertisement"><input type="radio" id="advertisement" name="reference"> Through an
+                                advertisement.</label></div>
+                    </div>
+                    <div class="items">
+                        <div><label for="improvement">What do you think needs improvement about the above joint?</label>
+                        </div>
+                        <div><label for="tables"><input type="checkbox" id="tables" name="improvement"> Number of
+                                tables.</label></div>
+                        <div><label for="counters"><input type="checkbox" id="counters" name="improvement"> More service
+                                counters.</label></div>
+                        <div><label for="satiety"><input type="checkbox" id="satiety" name="improvement"> Increase the size
+                                of servings.</label></div>
+                        <div><label for="ambience"><input type="checkbox" id="ambience" name="improvement"> General
+                                ambience.</label></div>
+                        <div><label for="packaging"><input type="checkbox" id="packaging" name="improvement"> Convenient
+                                packaging.</label></div>
+                        <div><label for="consistency"><input type="checkbox" id="consistency" name="improvement"> Quality
+                                consistency.</label></div>
+
+                    </div>
+                    <div>
+                        <div class="option"><label for="rating">How would you rate the above joint?</label></div>
+                        <select name="rating" id="rating" placeholder="select an option">
+                            <option disabled selected>select an option</option>
+                            <option value="top-range">10-7 (strongly recommend).</option>
+                            <option value="mid-range">4-6 (fairly recommend).</option>
+                            <option value="low-range">3-0 (do not recommend).</option>
+                        </select>
+                    </div>
+                    <div class="items">
+                        <div><label for="feature">What aspects of service would you recommend the above joint for?</label>
+                        </div>
+                        <div><label for="food"><input type="checkbox" id="food" name="feature"> Delicious Food.</label>
+                        </div>
+                        <div><label for="service"><input type="checkbox" id="service" name="feature"> Service staff
+                                ettiquette.</label></div>
+                        <div><label for="cost"><input type="checkbox" id="cost" name="feature"> Cost.</label></div>
+                        <div><label for="aesthetics"><input type="checkbox" id="aesthetics" name="feature">
+                                Aesthetics.</label></div>
+                    </div>
+
+                </div>
+            </form>
+            <div class="conclusion"> 
+                <p>Thank you for participating in this survey, your precious time is highly appreciated.</p>
+                <button>Submit</button>
+            </div>
+            
+        </div>
+    </body>
+
+</html>

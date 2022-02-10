@@ -1,0 +1,62 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.items {
+    padding: 5px 0px;
+    
+}
+#feature {
+    margin: 10px 0px;
+    display: block;
+}
+.form {
+    margin: auto;
+    width: 50%;
+    border: 1px solid black;
+    padding: 20px;
+    background-color: rgb(45, 85, 45);
+    color: white;
+    
+}
+.heading {
+    text-align: center;
+    color: white;
+}
+.conclusion {
+    text-align: center;
+    color: white;
+}
+
+.main {
+    background-color: rgb(77, 90, 77);
+    padding: 10px 0px;
+    font-family: sans-serif;
+}
+
+button {
+    width: 600px;
+    background-color: rgb(45, 85, 45);
+    color: white;
+  
+}
+
+.text-box input {
+    width: 100%;
+    height: 30px; 
+    border-radius: 10%;
+}
+
+select {
+    width: 100%;
+}
+
+
+
+
+
+
+
